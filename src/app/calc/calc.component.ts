@@ -10,7 +10,21 @@ export class CalcComponent {
     num2 : number = 0;
     result : number = 0;
 
-    calc(){
+    somar(){
       this.result = this.num1 + this.num2;
     }
+
+    menos(){
+      this.result = this.num1 - this.num2;
+    }
+
+    multiplicar(){
+      this.result = this.num1 * this.num2;
+    }
+
+    dividir(){
+      this.result = this.num1 / this.num2;
+    }
+
+
 }

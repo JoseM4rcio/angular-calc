@@ -9,6 +9,7 @@ import { CalcComponent } from './calc/calc.component';
   declarations: [
     AppComponent,
     CalcComponent
+
   ],
   imports: [
     BrowserModule,
