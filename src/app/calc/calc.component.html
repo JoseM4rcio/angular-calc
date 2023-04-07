@@ -1,17 +1,27 @@
 <form>
-  <input type="number" name="num1" [(ngModel)]="num1">
-  <input type="number" name="num2" [(ngModel)]="num2">
-  <button type="button" (click)="somar()">
-    +
-  </button>
-  <button type="button" (click)="menos()">
-    -
-  </button>
-  <button type="button" (click)="multiplicar()">
-    *
-  </button>
+  <div class="form-input">
+    <div class="form-title">Digite um valor</div>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <br>
+    <input type="number" name="num2" [(ngModel)]="num2">
+    <br>
+  </div>
+  <div class="form-button">
+    <button type="button" (click)="somar()">
+      +
+    </button>
+    <button type="button" (click)="menos()">
+      -
+    </button>
+    <button type="button" (click)="multiplicar()">
+      ×
+    </button>
     <button type="button" (click)="dividir()">
-    /
-  </button>
-  <input name= "result" [(ngModel)]="result" disabled>
+      ÷
+    </button>
+  </div>
+  <br>
+  <input class="result" name="result" [(ngModel)]="result" disabled>
+  <br>
+  <button class="reset" type="reset">🗑</button>
 </form>

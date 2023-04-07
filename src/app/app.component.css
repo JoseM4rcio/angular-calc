@@ -1,1 +1,19 @@
+.container{
+    background-color: darkcyan;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
 
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: auto;
+    }
+}
